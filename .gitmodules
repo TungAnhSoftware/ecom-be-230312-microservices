@@ -4,3 +4,9 @@
 [submodule "order-service"]
 	path = order-service
 	url = git@github.com:thanhtungha/order-service.git
+[submodule "inventory-service"]
+	path = inventory-service
+	url = git@github.com:thanhtungha/inventory-service.git
+[submodule "discovery-server"]
+	path = discovery-server
+	url = git@github.com:thanhtungha/discovery-server.git

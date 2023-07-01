@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="OrderService-Local" type="Application" factoryName="Application">
+    <envs>
+      <env name="--spring.profiles.active" value="local" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.ecom.orderservice.OrderServiceApplication" />
+    <module name="order-service" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.ecom.orderservice.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+      <option name="credential" />
+      <option name="region" />
+      <option name="useCurrentConnection" value="false" />
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
